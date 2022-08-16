@@ -43,3 +43,9 @@ docker images
 ```bash
 docker run -it <container-name>
 ```
+
+## To download image from docker hub
+
+```bash
+docker pull <image-name>
+```
