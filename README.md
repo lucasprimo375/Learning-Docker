@@ -21,6 +21,12 @@ docker kill <container-name-or-id>
 docker run -p <external-port>:<port> <container-name>
 ```
 
+## Run container with folder mapping
+
+```bash
+docker run -v <local-global-path>:<container-global-path> <container-name>
+```
+
 ## List running containers
 
 ```bash
