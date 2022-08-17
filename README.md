@@ -9,6 +9,18 @@ Repository to learn Docker from Udemy course by Bogdan Stashchuk
 docker run <container-name>
 ```
 
+## Stop a container from running
+
+```bash
+docker kill <container-name-or-id>
+```
+
+## Run container with external port
+
+```bash
+docker run -p <external-port>:<port> <container-name>
+```
+
 ## List running containers
 
 ```bash
