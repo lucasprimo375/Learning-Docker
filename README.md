@@ -27,6 +27,12 @@ docker run -p <external-port>:<port> <container-name>
 docker run -v <local-global-path>:<container-global-path> <container-name>
 ```
 
+## Run container in the background
+
+```bash
+docker run -d <container-name>
+```
+
 ## List running containers
 
 ```bash
@@ -66,4 +72,10 @@ docker run -it <container-name>
 
 ```bash
 docker pull <image-name>
+```
+
+## Get container logs
+
+```bash
+docker logs <container-id>
 ```
