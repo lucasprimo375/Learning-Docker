@@ -62,7 +62,7 @@ docker container ls -a
 docker images
 ```
 
-## To execute bash inside the container
+## To simulate a terminal inside the container and keep STDIN open
 
 ```bash
 docker run -it <container-name>
