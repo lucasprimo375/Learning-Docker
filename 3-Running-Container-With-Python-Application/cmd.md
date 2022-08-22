@@ -1,6 +1,6 @@
 # Running container with custom command
 ```bash
-docker run -it <image-name> <custom-command>
+docker run <image-name> <custom-command>
 ```
 
 # Commands for this case
