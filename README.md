@@ -38,6 +38,13 @@ docker run -d <image-name>
 docker run --name <container-name> <image-name>
 ```
 
+## Run existing stopped container
+```bash
+docker start <container-name-or-id>
+```
+
+The container will run with the same configuration as it was running before being stopped.
+
 ## List running containers
 
 ```bash
@@ -83,4 +90,16 @@ docker pull <image-name>
 
 ```bash
 docker logs <container-id>
+```
+
+## Remove stopped container from system
+
+```bash
+docker rm <container-name-or-id>
+```
+
+## Remove all stopped containers from system
+
+```bash
+docker container prune
 ```
