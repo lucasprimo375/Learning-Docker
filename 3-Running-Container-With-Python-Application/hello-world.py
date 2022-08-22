@@ -1,0 +1,1 @@
+print("Hello there! Python program running inside container!")
