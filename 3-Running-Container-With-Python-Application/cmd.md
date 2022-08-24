@@ -13,3 +13,5 @@ docker run -v ${PWD}:"/app" -w /app python python3 hello-world.py
 ```
 
 -w <string> stands for the working directory inside the container to execute the command.
+
+For calender_app.py, need to use -it to interact with STDIN.
