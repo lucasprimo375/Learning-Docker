@@ -111,11 +111,17 @@ docker exec <running-container-ir-or-name> <command-to-run>
 ```
 
 ```bash
-docker container exec <running-container-ir-or-name> <command-to-run>
+docker container exec <running-container-id-or-name> <command-to-run>
 ```
 
 To actually see terminal, use -it option.
 
 ```bash
-docker exec -it <running-container-ir-or-name> <command-to-run>
+docker exec -it <running-container-id-or-name> <command-to-run>
+```
+
+## Get details on the container
+
+```bash
+docker inspect <container-id-or-name>
 ```
