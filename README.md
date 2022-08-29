@@ -103,3 +103,19 @@ docker rm <container-name-or-id>
 ```bash
 docker container prune
 ```
+
+## Run command in a running container
+
+```bash
+docker exec <running-container-ir-or-name> <command-to-run>
+```
+
+```bash
+docker container exec <running-container-ir-or-name> <command-to-run>
+```
+
+To actually see terminal, use -it option.
+
+```bash
+docker exec -it <running-container-ir-or-name> <command-to-run>
+```
