@@ -120,6 +120,11 @@ To actually see terminal, use -it option.
 docker exec -it <running-container-id-or-name> <command-to-run>
 ```
 
+To list container environment variables:
+```bash
+docker exec <running-container-id-or-name> env
+```
+
 ## Get details on the container
 
 ```bash
