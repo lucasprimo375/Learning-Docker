@@ -134,7 +134,13 @@ docker inspect <container-id-or-name>
 ## Setting environment variables
 
 ```bash
-docker run -e <environment-variable-name>=<environment-variable-value> <container-id-or-name>
+docker run -e <environment-variable-name>=<environment-variable-value> <image-name>
 ```
 
 Option -e can be used as many times as needed.
+
+## Setting custom hostname for container
+
+```bash
+docker run -h <custom-hostname> <image-name>
+```
