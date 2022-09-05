@@ -1,1 +1,1 @@
-It's possible for two containers in the same custom network to communicate with each other using hostname, but not randomly assigned names.
+It's possible for two containers in the same custom network to communicate with each other using hostname, but not randomly assigned names. However, it works for custom named containers.
